@@ -21,6 +21,10 @@ Given(/I have entered (\d+) into the calculator/) do |n|
   @calc.push n.to_i
 end
 
+Given(/I go to sleep (\d+) seconds/) do |n|
+  @calc.sleepy n
+end
+
 When(/I press (\w+)/) do |op|
   @result = @calc.send op
 end
