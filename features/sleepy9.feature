@@ -6,7 +6,7 @@ Feature: Sleepy9
   Scenario: Sleep 1 second Test
     * I have entered 3 into the calculator
     * I have entered 2 into the calculator
-    * I go to sleep 1 seconds
+    * I go to sleep 18 seconds
     * I press divide
     * the result should be 1.5 on the screen
 
