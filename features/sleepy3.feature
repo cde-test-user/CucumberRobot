@@ -1,5 +1,5 @@
 # language: en
-Feature: Sleepy1
+Feature: Sleepy3
   Each scenario sleep X seconds.
   The first one sleeps 1 seconds, the second sleeps 2 seconds etc.
 
