@@ -11,4 +11,9 @@ class Calculator
   def divide
     @args[0].to_f / @args[1].to_f
   end
+
+  def sleepy(seconds)
+    sleep(seconds)
+  end
+
 end
